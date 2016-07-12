@@ -1,0 +1,79 @@
+p {
+  background: gray;
+  font-size: 24px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body {
+    background-image: url("https://googledrive.com/host/0ByGVieP7cjr1em52SFp4MjljZkU");
+      background-size: auto 100%;
+}
+.col {
+    width: 45%;
+}
+.pic {
+  float: left;
+  height: 304px;
+  width: 142;
+  overflow: hidden;
+  
+  -webkit-box-shadow: 1px 1px 1px #111;
+          box-shadow: 1px 1px 1px #111;  
+}
+.parallax { 
+    /* The image used */
+    background-image: url("https://googledrive.com/host/0ByGVieP7cjr1RlZXWExLalY4bWs");
+     
+    /* Set a specific height */
+    height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div {
+    border:10px solid black;
+      border-radius: 5px;
+        background: silver;
+          background-repeat: no-repeat;
+
+}
+.container {
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 950px;
+}
+.grow img {
+  height: 300px;
+  width: 300px;
+ 
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+.grow img:hover {
+  width: 400px;
+  height: 400px;
+}
+/*img {
+  float: left;
+}
+section {
+  float: left;
+}
+*/
+
+aside {
+  float: right;
+}
